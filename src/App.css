@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.header{
+ padding-top: 2rem;
+ margin: 2rem auto;
+ text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Navbar css */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding: 20px 80px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.navbar .ul {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .ul li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
 }
+
+.navbar .ul li a:hover,
+.navbar .ul li a.active {
+  color: black;
+}
+
+.navbar .ul li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.navbar .ul li a:hover::after,
+.navbar .ul li a.active::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
