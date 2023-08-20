@@ -1,14 +1,22 @@
 import React from 'react';
-import ProductCard from './ProductCard'; // Asegúrate de que la ruta sea correcta
-import productos from './productos'; // Importa los datos de productos
+import ProductCard from './ProductCard'; 
+import productos from './productos';
+import { useParams } from 'react-router-dom';
+
 
 function ItemListContainer() {
+  const { categoryName } = useParams();
+
+  const filteredProducts = categoryName
+  ? productos.filter((producto) => producto.categoria === categoryName)
+  : productos;
+
   return (
     <div className="product-list">
       <div className='products-cards container'>
-        {productos.map((producto) => (
-        <ProductCard key={producto.id} producto={producto} />
-      ))}
+      {filteredProducts.map((producto) => (
+          <ProductCard key={producto.id} producto={producto} />
+        ))}
       </div>
           
     </div>

@@ -1,14 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function ListaCategorias() {
-  const categorias = ['Calzado', 'Electronica', 'Fragancia', 'Ropa'];
+  const categorias = ['Calzado', 'Electrónica', 'Fragancias', 'Ropa'];
 
   return (
     <div className="lista-categorias">
       <h3>Categorías</h3>
       <ul>
         {categorias.map((categoria, index) => (
-          <li key={index}>{categoria}</li>
+          <li key={index}>
+            <Link to={`/category/${categoria}`}>{categoria}</Link>
+          </li>
         ))}
       </ul>
     </div>

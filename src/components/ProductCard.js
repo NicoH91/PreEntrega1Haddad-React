@@ -18,6 +18,7 @@ function ProductCard({ producto }) {
           Categoría: {producto.categoria}
         </Card.Text>
         <Button variant="success" onClick={handleButtonClick}>Comprar</Button>
+        
       </Card.Body>
     </Card>
   );
