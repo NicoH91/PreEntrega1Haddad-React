@@ -33,7 +33,7 @@ const Navbar = () => {
                                 ))}
                             </ul>
                         </li>
-                        <li> <a href='index.html'>Login</a></li>
+                        <li> <a href='*'>Login</a></li>
                         
                         <CartWidget />
                     </ul>
