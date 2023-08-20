@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/PreEntrega1Haddad-React/" element={<ItemListContainer />} />
+          <Route path="/PreEntrega1Haddad-React" element={<ItemListContainer />} />
           <Route path="/category/:categoryName" element={<ItemListContainer />} />
         </Routes>
         <Footer />

@@ -22,7 +22,7 @@ const Navbar = () => {
 
                 <div>
                     <ul className='ul'>
-                        <li><NavLink to="/" activeClassName="active" exact>Home</NavLink></li>
+                        <li><NavLink to="/PreEntrega1Haddad-React" activeClassName="active" exact>Home</NavLink></li>
                         <li className="categorias" onClick={toggleMenuCategorias}>
                             <a href='#'>Categorías</a>
                             <ul className={`submenu ${mostrarMenuCategorias ? 'mostrar' : ''}`}>
