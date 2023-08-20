@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PreEntrega1Haddad-React/static/css/main.3eba49f5.css",
+    "main.js": "/PreEntrega1Haddad-React/static/js/main.b584716f.js",
+    "static/media/ropa3.jpg": "/PreEntrega1Haddad-React/static/media/ropa3.b8afa8dea75206ff34e1.jpg",
+    "static/media/zapatillasnike.jpg": "/PreEntrega1Haddad-React/static/media/zapatillasnike.b0705cf3552be1a4028f.jpg",
+    "static/media/perfume1.jpg": "/PreEntrega1Haddad-React/static/media/perfume1.22d2046bf46e3c9f8711.jpg",
+    "static/media/perfume2.jpg": "/PreEntrega1Haddad-React/static/media/perfume2.0ce65c273fd341e2c000.jpg",
+    "static/media/auriculares1.jpg": "/PreEntrega1Haddad-React/static/media/auriculares1.720285cdcb9c24d4df85.jpg",
+    "static/media/celular1.jpg": "/PreEntrega1Haddad-React/static/media/celular1.758231d5c02379f1b365.jpg",
+    "static/media/celular2.jpg": "/PreEntrega1Haddad-React/static/media/celular2.c6e61180cc96ccde1e87.jpg",
+    "static/media/perfume3.jpg": "/PreEntrega1Haddad-React/static/media/perfume3.5f606af16b0670b20091.jpg",
+    "static/media/ropa1.jpg": "/PreEntrega1Haddad-React/static/media/ropa1.6f78962e604b736c43a0.jpg",
+    "static/media/ropa2.jpg": "/PreEntrega1Haddad-React/static/media/ropa2.97468418a1352a7f1483.jpg",
+    "static/media/zapatillas.jpg": "/PreEntrega1Haddad-React/static/media/zapatillas.1d2ba886681cc34734ff.jpg",
+    "static/media/makeup1.jpg": "/PreEntrega1Haddad-React/static/media/makeup1.3c56fe1fbf38ae155d3c.jpg",
+    "index.html": "/PreEntrega1Haddad-React/index.html",
+    "main.3eba49f5.css.map": "/PreEntrega1Haddad-React/static/css/main.3eba49f5.css.map",
+    "main.b584716f.js.map": "/PreEntrega1Haddad-React/static/js/main.b584716f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3eba49f5.css",
+    "static/js/main.b584716f.js"
+  ]
+}
