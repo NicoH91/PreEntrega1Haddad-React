@@ -1,7 +1,18 @@
 import React from 'react'
 import CartWidget from './CartWidget'
+import { useState } from 'react';
 
 const Navbar = () => {
+    const categorias = ['Calzado ', 'Electronica', 'Fragancia', 'Ropa'];
+
+    const [mostrarMenuCategorias, setMostrarMenuCategorias] = useState(false);
+
+    const toggleMenuCategorias = () => {
+        setMostrarMenuCategorias(!mostrarMenuCategorias);
+    };
+
+
+
     return (
         <>
             <nav className='navbar'>
@@ -10,13 +21,20 @@ const Navbar = () => {
                 <div>
                     <ul className='ul'>
                         <li> <a className='active' href='index.html' >Home</a></li>
-                        <li> <a href='index.html'>store</a></li>
-                        <li> <a href='index.html'>online</a></li>
+                        <li className="categorias" onClick={toggleMenuCategorias}>
+                            <a href='#'>Categorías</a>
+                            <ul className={`submenu ${mostrarMenuCategorias ? 'mostrar' : ''}`}>
+                                {categorias.map((categoria, index) => (
+                                    <li key={index}><a href="#">{categoria}</a></li>
+                                ))}
+                            </ul>
+                        </li>
+                        <li> <a href='index.html'>Online</a></li>
                         <li> <a href='index.html'>Information</a></li>
                         <CartWidget />
                     </ul>
                 </div>
-              
+
             </nav>
         </>
     )
