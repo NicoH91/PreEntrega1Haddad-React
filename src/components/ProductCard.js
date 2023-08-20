@@ -2,9 +2,10 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function ProductCard({ producto }) {
+function ProductCard({ producto, agregarAlCarrito }) {
   const handleButtonClick = () => {
-    console.log(producto);
+
+    agregarAlCarrito(producto);
   };
   return (
     <Card style={{ width: '18rem' }}>
@@ -18,7 +19,7 @@ function ProductCard({ producto }) {
           Categoría: {producto.categoria}
         </Card.Text>
         <Button variant="success" onClick={handleButtonClick}>Comprar</Button>
-        
+
       </Card.Body>
     </Card>
   );

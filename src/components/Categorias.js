@@ -11,8 +11,12 @@ function ListaCategorias() {
         {categorias.map((categoria, index) => (
           <li key={index}>
             <Link to={`/category/${categoria}`}>{categoria}</Link>
+            
           </li>
         ))}
+        <li>
+          <Link to="/">Home</Link>
+        </li>
       </ul>
     </div>
   );

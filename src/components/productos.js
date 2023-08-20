@@ -14,14 +14,14 @@ import imagen12 from './data/makeup1.jpg'
 const productos = [
     {
         id: 1,
-        nombre: "Auriculares X",
+        nombre: "Celular pro max",
         imagen: imagen1,
         precio: 19.99,
         categoria: "Electrónica",
     },
     {
         id: 2,
-        nombre: "Auriculares Y",
+        nombre: "Celular max",
         imagen: imagen2,
         precio: 29.99,
         categoria: "Electrónica",
