@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/PreEntrega1Haddad-React/static/css/main.3eba49f5.css",
-    "main.js": "/PreEntrega1Haddad-React/static/js/main.cadcc8a5.js",
+    "main.js": "/PreEntrega1Haddad-React/static/js/main.f914a3c1.js",
+    "static/js/883.c3f2c72b.chunk.js": "/PreEntrega1Haddad-React/static/js/883.c3f2c72b.chunk.js",
     "static/media/ropa3.jpg": "/PreEntrega1Haddad-React/static/media/ropa3.b8afa8dea75206ff34e1.jpg",
     "static/media/zapatillasnike.jpg": "/PreEntrega1Haddad-React/static/media/zapatillasnike.b0705cf3552be1a4028f.jpg",
     "static/media/perfume1.jpg": "/PreEntrega1Haddad-React/static/media/perfume1.22d2046bf46e3c9f8711.jpg",
@@ -16,10 +17,11 @@
     "static/media/makeup1.jpg": "/PreEntrega1Haddad-React/static/media/makeup1.3c56fe1fbf38ae155d3c.jpg",
     "index.html": "/PreEntrega1Haddad-React/index.html",
     "main.3eba49f5.css.map": "/PreEntrega1Haddad-React/static/css/main.3eba49f5.css.map",
-    "main.cadcc8a5.js.map": "/PreEntrega1Haddad-React/static/js/main.cadcc8a5.js.map"
+    "main.f914a3c1.js.map": "/PreEntrega1Haddad-React/static/js/main.f914a3c1.js.map",
+    "883.c3f2c72b.chunk.js.map": "/PreEntrega1Haddad-React/static/js/883.c3f2c72b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3eba49f5.css",
-    "static/js/main.cadcc8a5.js"
+    "static/js/main.f914a3c1.js"
   ]
 }
