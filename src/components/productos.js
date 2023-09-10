@@ -18,6 +18,7 @@ const productos = [
         imagen: imagen1,
         precio: 19.99,
         categoria: "Electrónica",
+        descripcion: " lorem 123",
     },
     {
         id: 2,
@@ -25,6 +26,7 @@ const productos = [
         imagen: imagen2,
         precio: 29.99,
         categoria: "Electrónica",
+        descripcion: " lorem 123",
     },
     {
         id: 3,
@@ -32,6 +34,7 @@ const productos = [
         imagen: imagen3,
         precio: 39.99,
         categoria: "Fragancias",
+        descripcion: " lorem 123",
     },
     {
         id: 4,
@@ -39,6 +42,7 @@ const productos = [
         imagen: imagen4,
         precio: 49.99,
         categoria: "Fragancias",
+        descripcion: " lorem 123",
     },
     {
         id: 5,
@@ -46,6 +50,7 @@ const productos = [
         imagen: imagen5,
         precio: 59.99,
         categoria: "Calzado",
+        descripcion: " lorem 123",
     },
     {
         id: 6,
@@ -53,6 +58,7 @@ const productos = [
         imagen: imagen6,
         precio: 69.99,
         categoria: "Calzado",
+        descripcion: " lorem 123",
     },
     {
         id: 7,
@@ -60,6 +66,7 @@ const productos = [
         imagen: imagen7,
         precio: 39.99,
         categoria: "Electrónica",
+        descripcion: " lorem 123",
     },
     {
         id: 8,
@@ -67,6 +74,7 @@ const productos = [
         imagen: imagen8,
         precio: 59.99,
         categoria: "Fragancias",
+        descripcion: " lorem 123",
     },
     {
         id: 9,
@@ -74,6 +82,7 @@ const productos = [
         imagen: imagen10,
         precio: 59.99,
         categoria: "Ropa",
+        descripcion: " lorem 123",
     },
     {
         id: 10,
@@ -81,6 +90,7 @@ const productos = [
         imagen: imagen11,
         precio: 59.99,
         categoria: "Ropa",
+        descripcion: " lorem 123",
     },
     {
         id: 11,
@@ -88,6 +98,7 @@ const productos = [
         imagen: imagen9,
         precio: 59.99,
         categoria: "Ropa",
+        descripcion: " lorem 123",
     },
     {
         id: 12,
@@ -95,6 +106,7 @@ const productos = [
         imagen: imagen12,
         precio: 59.99,
         categoria: "Make up",
+        descripcion: " lorem 123",
     },
     
     

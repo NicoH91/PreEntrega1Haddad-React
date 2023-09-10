@@ -148,7 +148,18 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+/* Detalles product details  */
 
+.product-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 70vh; 
+}
+
+.product-detail-content {
+  text-align: center; 
+}
   /* Footer css */
 
   .footer-container {

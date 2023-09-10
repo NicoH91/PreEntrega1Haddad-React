@@ -1,14 +1,17 @@
 import React from 'react'
 import Navbar from './Navbar'
-import H1 from './H1'
+
 
 
 const Header = () => {
+
+  let greetings = "Welcome to Summoners Rift"
+
   return (
     <>
 
       <Navbar />
-      <H1/>
+      <h1 className='header'> {greetings} </h1> 
     </>
   )
 }
